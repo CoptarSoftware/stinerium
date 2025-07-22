@@ -15,14 +15,14 @@ Designed to create **maintainable, reusable, and efficient automated tests** for
 ## Project Structure
 ```text
 stinerium/
-├── src/                    # Framework source code
-│   ├── pages/              # Page Objects
-│   ├── tests/              # Automated test cases
-│   ├── utils/              # Utility classes and helpers
-│   └── drivers/            # WebDriver configurations
-├── reports/                # Generated test reports
-├── config/                 # Environment and test configuration files
-├── requirements.txt        # Python dependencies (if Python-based)
+├── src/                      
+│   ├── flow/                 
+│   ├── pom/                  
+│   ├── actions.py            
+│   └── application_model.py 
+├── utils/                
+├── LICENSE.txt
+├── setup.py
 └── README.md
 ```
 
@@ -38,7 +38,5 @@ stinerium/
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/CoptarSoftware/stinerium.git
-cd stinerium
-pip install -r requirements.txt
+pip install git+https://github.com/CoptarSoftware/stinerium.git
 ```
