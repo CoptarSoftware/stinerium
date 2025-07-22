@@ -13,16 +13,18 @@ Designed to create **maintainable, reusable, and efficient automated tests** for
 - Parallel test execution support.
 
 ## Project Structure
+```text
 stinerium/
-├── src/ # Framework source code
-│ ├── pages/ # Page Objects
-│ ├── tests/ # Automated test cases
-│ ├── utils/ # Utility classes and helpers
-│ └── drivers/ # WebDriver configurations
-├── reports/ # Generated test reports
-├── config/ # Environment and test configuration files
-├── requirements.txt # Python dependencies (if Python-based)
+├── src/                    # Framework source code
+│   ├── pages/              # Page Objects
+│   ├── tests/              # Automated test cases
+│   ├── utils/              # Utility classes and helpers
+│   └── drivers/            # WebDriver configurations
+├── reports/                # Generated test reports
+├── config/                 # Environment and test configuration files
+├── requirements.txt        # Python dependencies (if Python-based)
 └── README.md
+```
 
 ## Getting Started
 
