@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='test_library',
-    version='0.0.7',
+    version='0.0.1',
     description='Core Test Library '
                 'This library extends Selenium with custom actions, allowing separation of business and technical logic in automated tests.'
                 'Through its abstraction layer, tests become more readable, maintainable, and can be written in a business-friendly language '
