@@ -1,4 +1,4 @@
-# Stiner UI Test Framework
+# Stinerium UI Test Framework
 
 A scalable **UI test automation framework** built on top of [Selenium WebDriver](https://www.selenium.dev/).  
 Designed to create **maintainable, reusable, and efficient automated tests** for web applications.
